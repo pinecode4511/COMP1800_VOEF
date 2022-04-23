@@ -1,0 +1,104 @@
+#body .filler {
+    width: 20vw;
+}
+
+#body #hero {
+    background: url("../images/flag.webp") cover/center no-repeat;
+}
+
+#body #create-form {
+    padding: 2em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 5em;
+}
+
+#body #create-form>div {
+    padding: 0.5em;
+}
+
+#body #create-form>div>input {
+    color: #8e8e8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#body .form-group input {
+    padding: 1em;
+    color: #8e8e8e;
+}
+
+#body .form-control {
+    padding: 1em;
+    color: #8e8e8e;
+}
+
+#body #create-form>div>textarea {
+    color: #8e8e8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#body #submit-button-container {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body #btn-group {
+    width: 25%;
+}
+
+#body .form-group {
+    padding: 1em;
+}
+
+#body h1 {
+    padding: 0.5em;
+    text-align: center;
+}
+
+#body input[type=file]::file-selector-button {
+    display: none;
+}
+
+.btn-primary {
+    background-color: #B6C8EB;
+    color: black;
+}
+
+@media (max-width: 700px) {
+
+    #body #create-form {
+        padding: 2em;
+        padding-top: 5em;
+    }
+
+    #body #create-form>div {
+        padding: 0.5em;
+    }
+
+    #body #create-form>div>input {
+        color: #8e8e8e;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #body #create-form>div>textarea {
+        color: #8e8e8e;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #body #submit-button-container {
+        padding-top: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #body h1 {
+        padding: 0.15em;
+    }
+}

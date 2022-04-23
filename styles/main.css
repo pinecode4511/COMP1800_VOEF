@@ -1,0 +1,90 @@
+#hero {
+  background: url("../images/flag.webp") cover/center no-repeat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 77px 1fr auto;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#navbarPlaceholder {
+  grid-row: 1 / span 1;
+}
+
+#body {
+  grid-row: 2 / span 1;
+}
+
+#footerPlaceholder {
+  grid-row: 3 / span 1;
+  grid-column: 1 /span 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.likedImg {
+  width: 262px;
+  height: 174px;
+}
+
+#heroContainer {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  background-color: #3D52D5;
+}
+
+#heroContainer {
+  background-color: #DDE8F5;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.row {
+  display: grid;
+  grid-gap: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: #DDE8F5;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.previewImage {
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .featuredEvents {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .featuredItem {
+    width: 400px;
+    height: 300px;
+  }
+}
